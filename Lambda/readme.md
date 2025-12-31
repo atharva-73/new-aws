@@ -43,7 +43,7 @@ ec2 = boto3.client('ec2')
 
 def lambda_handler(event, context):
     # Hardcoded EC2 instance ID
-    instance_id = 'i-0a30a69aab79a1275'
+    instance_id = 'i-030a69aab79a1275'
     
     # Start the EC2 instance
     try:
